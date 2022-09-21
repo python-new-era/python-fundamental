@@ -1,18 +1,15 @@
-data= {
-    'name' : 'Herman',
-    'age'  : 18,
-    'Hoby' : 'nynyi'
-}
+biodata = {
+    'name' :'Andika',
+    'umur' :27,
+    'pekerjaan' :'Desainer',
+    'Hoby' :'Nyanyi'
+           }
 
+biodata['Alamat'] = 'Bandar Lampung'
+biodata['umur'] = 30
 
-data['name'] = 'jihan'
-data['perkerjaan'] = 'desainer'
+del (biodata['Hoby'])
 
-del data['perkerjaan']
-
-
-for key ,value in data.items():
-    print(f'{key} : {value}')
-
-
+for key , value in biodata.items():
+    print(f'{key} - {value} ')
 
