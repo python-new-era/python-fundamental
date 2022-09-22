@@ -1,3 +1,5 @@
-import data
+import datetime
 
-print(person)
+now = datetime.datetime.now()
+
+print(now.strftime("%Y,%m,%d"))
